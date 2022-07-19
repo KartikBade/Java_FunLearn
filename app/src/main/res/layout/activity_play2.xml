@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level2.Play2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text=" Operators "
+            android:textColor="#131313"
+            android:textSize="36sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--                Question 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="1. Which of the following is the decrement operator?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q1o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="++"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="/"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q1o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="+="
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="@string/dec"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            app:backgroundTint="#3294E1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="16dp"
+                        android:text="2. Which of the following is the increment operator?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q2o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="++"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="@string/dec"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q2o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="+-"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="=="
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:inputType="textMultiLine"
+                        android:text="3. With x = 0, which of the following are legal lines of Java code for changing the value of x to 1?   \n   1. x++;  \n  2. x = x + 1;  \n  3. x += 1;  \n  4. x =+ 1;"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q3o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" 1, 2 and 3"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q3o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="1 and 4"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q3o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="1, 2, 3 and 4"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q3o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="3 and 2"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="4. Decrement operator, −− and Increment operator ++, decreases and increases the value of variable by what number?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q4o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="0"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="1"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q4o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="1024"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="2"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text='5. What will be the output of the following Java program?   \n   class Output      {    \n     public static void main(String args[])          {            \n      int a = 1;       \n       int b = 2;      \n        int c;      \n        int d;       \n       c = ++b;       \n       d = a++;        \n      c++;       \n       b++;      \n        ++a;      \n        System.out.println(a + " " + b + " " + c);'
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q5o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="3 4 4"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="3 2 4"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q5o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="3 2 3"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="2 3 4"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="6. Which of the following are Logical operators"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q6o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text='@string/and'
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="|| : Returns true if one of the statements is true"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q6o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="!:Reverse the result, returns false if the result is true"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="All of The Listed"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 7-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="7. Which of the Following are Comparison Operators"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q7o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="=="
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="!="
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q7o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=">="
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="All of the above"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 8-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="8. What will be the output of the following Java code? \n class Output { \n public static void main(String args[]) \n { \n int x , y = 1; \n x = 10; \n if (x != 10 &amp;&amp; x / 0 == 0) \n System.out.println(y); \n else \n System.out.println(++y); \n } }"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q8o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="2"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="1"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q8o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="100"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Error"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 9-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="9. What will be the output of the following Java code?    \n  class operators     {   \n      public static void main(String args[])         {   \n          int var1 = 5 , var2 = 6, int var3;    \n         var3 = ++ var2 * var1 / var2 + var2;     \n        System.out.print(var3);      \n   }      }"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q9o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="0"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="11"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q9o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="12"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="56"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 10-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="10. What is the Correct Operator Priorty"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q10o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" 1:=, 2: +=, 3: -= , 4: *=, 5: /=, 6:%= "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" 1: +=, 2: =, 3: -=, 4: *=, 5: /=, 6: %="
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q10o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                         android:text=" 1: -= ,2: *= ,3:= ,4: =+, 5:/=, 6:%= "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" 1:= ,2: /= ,3:-= ,4: =+, 5:*=, 6:%= "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:text="Return to level select"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:backgroundTint="#C82D2D" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

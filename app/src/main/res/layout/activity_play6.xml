@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level6.Play6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Inheritance"
+            android:textColor="#131313"
+            android:textSize="36sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--                Question 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="1. Which of this keyword can be used in a subclass to call the constructor of superclass?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q1o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="super"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="this"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q1o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="extent"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="extends"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            app:backgroundTint="#3294E1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="2. What is the process of defining a method in a subclass having same name and type signature as a method in its superclass?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q2o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Method overloading"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Method overriding"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q2o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Method hiding"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="None"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:inputType="textMultiLine"
+                        android:text="3. Which of these keywords can be used to prevent Method overriding?"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        tools:ignore="TextViewEdits" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q3o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="static"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q3o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="constant"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q3o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="protected"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q3o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="final"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="4. Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q4o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="super(void);"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="superclass.();"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q4o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="super.A();"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="super();"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="5.Which of these is supported by method overriding in Java?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q5o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Abstraction"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Encapsulation"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q5o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Polymorphism"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="none"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="6.Which of these class is superclass of every class in Java?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q6o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text='String class'
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Object class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q6o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Abstract class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="ArrayList class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 7-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="7. Which of these method of Object class is used to obtain class of an object at run time?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q7o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="get()"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="void getclass()"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q7o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Class getclass()"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="None from above"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 8-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="8.Which of these keywords can be used to prevent inheritance of a class?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q8o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="super"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="constant"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q8o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="final"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 9-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="9. Which of these keywords cannot be used for a class which has been declared final?"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q9o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="abstract"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="extends"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q9o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="abstract and extends"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="None of the above"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 10-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text='10. Which of these class relies upon its subclasses for complete implementation of its methods?'
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q10o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" Object class "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="abstract class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q10o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="ArrayList class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="None"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:text="Return to level select"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:backgroundTint="#C82D2D" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

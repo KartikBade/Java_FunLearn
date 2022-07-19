@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level9.Play9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Exception Handling"
+            android:textColor="#131313"
+            android:textSize="36sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--                Question 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="1. When does Exceptions in Java arises in code sequence?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q1o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Run Time"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" Compilation Time"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q1o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Can Occur Any Time"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="None of the listed"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            app:backgroundTint="#3294E1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text= "2.Which of these keywords is not a part of exception handling?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q2o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="try"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="finally"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q2o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="thrown"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="catch"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:inputType="textMultiLine"
+                        android:text="3. Which of these keywords must be used to monitor for exceptions?"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        tools:ignore="TextViewEdits" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q3o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="try"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q3o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="finally"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q3o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="thrown"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q3o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="catch"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="4. Which of these keywords must be used to handle the exception thrown by try block in some rational manner?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q4o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="try"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="finally"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q4o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="thrown"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="catch"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="5. Which of these keywords is used to manually throw an exception?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q5o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="try"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="catch"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q5o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="throws"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="finally"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text='6. What will be the output of the following Java program? \n class exception_handling      {    \n     public static void main(String args[])          {          \n   try              {             \n    int a, b;        \n         b = 0;              \n   a = 5 / b;      \n           System.out.print("A");     \n        }      \n       catch(ArithmeticException e)              {       \n  	System.out.print("B");        	\n             }            \n finally              {     	   \n     System.out.print("C");        \n     }       \n  } \n    }'
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q6o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text='A'
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="B"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q6o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="AC"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="BC"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 7-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="7.Which of the following classes can catch all exceptions which cannot be caught?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q7o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="RuntimeException"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Error"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q7o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Exception"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="ParentException"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 8-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="8. Which of the following is a super class of all exception type classes?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q8o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="throwable"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Catchable"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q8o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Runnable"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Handler"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 9-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="9.  Which of the following handles the exception when a catch is not used?"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q9o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="finally"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="throw handler"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q9o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="default handler"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="java run time system"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 10-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text='10. What will be the output of the following Java code?      \n class Output      {      \n   public static void main(String args[])       {    \n        try             {       \n         int a = 0;        \n        int b = 5;       \n         int c = b / a;          \n      System.out.print("Hello");      \n      }         \n  catch(Exception e)             {          \n      System.out.print("World");     \n         }        \n  }  \n   }'
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q10o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Hello"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="World"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q10o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="HelloWOrld"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Compilation Error"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:text="Return to level select"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:backgroundTint="#C82D2D" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
