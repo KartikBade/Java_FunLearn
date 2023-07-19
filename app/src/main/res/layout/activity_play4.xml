@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level4.Play4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text=" Java And Concepts of OOP "
+            android:textColor="#131313"
+            android:textSize="36sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--                Question 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="1. Which of the following is not OOPS concept in Java?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q1o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Inheritance"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Encapsulation"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q1o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Polymorphism"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Compilation"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            app:backgroundTint="#3294E1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="2. When does method overloading is determined?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q2o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" At run time"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" At compile time"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q2o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="At coding time"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="At execution time"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:inputType="textMultiLine"
+                        android:text="3. Which concept of Java is a way of converting real world objects in terms of class?"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        tools:ignore="TextViewEdits" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q3o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Encapsulation"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q3o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Polymorphism"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q3o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Abstraction"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q3o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Inheritance"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="4. Which concept of Java is achieved by combining methods and attribute into a class?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q4o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Encapsulation"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Inheritance"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q4o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Polymorphism"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Abstraction"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="5. Which component is used to compile, debug and execute java program"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q5o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JVM"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JDK"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q5o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JIT"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JRE"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="6. Which component is responsible for converting bytecode into machine specific code?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q6o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text='JVM'
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JDKt"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q6o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JIT"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JRE"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 7-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="7. Which component is responsible to run java program?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q7o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JVM"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JDK"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q7o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JIT"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="JRE"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 8-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="8. Which of the below is invalid identifier with the main method? "
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q8o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="public"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="static"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q8o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="private"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="final"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 9-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="9. What is the extension of java code files?  "
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q9o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".class"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".java"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q9o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".txt"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".js"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 10-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text='10. What is the extension of compiled java classes?'
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q10o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" .class "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".java"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q10o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".txt "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=".js"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:text="Return to level select"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:backgroundTint="#C82D2D" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level7.Play7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Packages: java.io \n and java.lang"
+            android:textColor="#131313"
+            android:textSize="36sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--                Question 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="1. Which of these classes is not included in java.lang?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q1o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Byte"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Integer"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q1o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Array"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q1o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Class"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            app:backgroundTint="#3294E1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="2.Which of these is a process of converting a simple data type into a class?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q2o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="type wrapping"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="type conversion"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+
+                        <Button
+                            android:id="@+id/q2o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="type casting"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q2o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="None"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:inputType="textMultiLine"
+                        android:text="3. Which of these is a super class of wrappers Double and Integer?"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        tools:ignore="TextViewEdits" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q3o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="long"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            app:backgroundTint="#3294E1" />
+
+                        <Button
+                            android:id="@+id/q3o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="digits"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q3o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="float"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q3o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="number"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="4.Which of these is a wrapper for simple data type float?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q4o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="int"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="double"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q4o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Float"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q4o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="char"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="5. Which of the following package stores all the simple data types in java?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q5o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="lang"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="java"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q5o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="util"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q5o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="java.packages"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="6. Which of these is a wrapper for data type int?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q6o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text='Integer'
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Long"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q6o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Byte"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q6o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Double"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 7-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="7. Which of these is a super class of wrappers Long, Character and Integer?"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q7o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="long"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="digits"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q7o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="float"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q7o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="number"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 8-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="8. Which of these is a wrapper for simple data type char?"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q8o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="float"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="character"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q8o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="string"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q8o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="integer"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 9-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="#000000"
+                        android:text="9.Which of these method is a rounding function of Math class?"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/q9o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="max()"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="min()"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q9o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="abs()"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q9o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="all of above"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--                Question 10-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text='10. Which of these class contains only floating point functions?'
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/q10o1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text=" Math "
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Process"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+
+                        <Button
+                            android:id="@+id/q10o3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="System"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/q10o4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="object"
+                            android:textColor="@color/black"
+                            app:backgroundTint="#3294E1"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="269dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="Return to level select"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:backgroundTint="#C82D2D" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

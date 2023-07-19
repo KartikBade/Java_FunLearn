@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Java FunLearn</string>
+    <string name="dec">--</string>
+    <string name="and">&amp;&amp; :Returns true if both statements are true</string>
+    <string name="q8">What will be the output of the following Java code? \n class Output { \n public static void main(String args[]) \n { \n int x , y = 1; \n x = 10; \n if (x != 10 &amp;&amp; x / 0 == 0) \n System.out.println(y); \n else \n System.out.println(++y); \n } }></string>
+    <string name="l3_q7_op2"><![CDATA[for(i=0 ; i<1; i--)]]></string>
+
+    <string name="DataTypes"> <span> <p style="font-size:22sp"><b>Data Types in Java:</b> </p> </span>
+Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java: <br></br>
+1. Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.<br></br>
+2. Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.<br></br> <br></br>
+     <span>  <p style="font-size:22sp"> <b>Java Primitive Data Types</b></p></span> <br></br>
+In Java language, primitive data types are the building blocks of data manipulation. These are the most basic data types available in Java language.
+        <span><p><b>There are 8 types of primitive data types:</b></p></span>
+<span><ol>
+
+  <li>boolean data type</li>
+  <li>byte data type</li>
+  <li>char data type</li>
+  <li>short data type</li>
+  <li>int data type</li>
+  <li>long data type</li>
+  <li>float data type</li>
+  <li>double data type</li>
+
+</ol>
+
+</span>
+
+    </string>
+</resources>
